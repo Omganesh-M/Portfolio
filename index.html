@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio • Omganesh M</title>
+    <meta
+      name="description"
+      content="A clean, modern, responsive portfolio built with HTML & CSS only (no JS)."
+    />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link rel="stylesheet" href="https://use.typekit.net/cmq8cau.css" />
+    <!-- Optional: uncomment if you want the Inter font. Otherwise system fonts will be used
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* ---------- CSS Variables & Base ---------- */
+    </style>
+  </head>
+  <body>
+    <!-- Header / Nav -->
+    <header>
+      <div class="container">
+        <input type="checkbox" id="nav-toggle" aria-label="Toggle navigation" />
+        <nav class="nav">
+          <div class="logo">
+            <a href="#top" class="row" style="text-decoration: none"
+              ></span
+              ><span><b>Omganesh M</b></span></a
+            >
+          </div>
+          <label class="burger" for="nav-toggle"
+            ><span aria-hidden="true"></span
+            ><span class="sr-only">Open Menu</span></label
+          >
+          <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#about">Contact</a>
+            <a href="Omganesh_M_resume.pdf" id="btn" download>Download CV</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <main id="top" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="pill">Hi, I'm <strong>Omganesh M</strong></span>
+          <h1>
+            Building dynamic, responsive websites and solving problems through code.
+          </h1>
+          <p>  
+            Enthusiastic BCA student pursuing studies at SRM College with a passion for software development,
+            problem-solving, and new technologies. Skilled at quickly learning new tools and programming
+            languages. I have a strong foundation in computer science concepts. I am eager to work on real-world
+            projects, cooperate with teams, and keep growing in the IT industry.
+          </p>
+          <div class="badges">
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">Javascript</span>
+            <span class="chip">C</span>
+            <span class="chip">Python</span>
+            <span class="chip">Java</span>
+            <span class="chip">C++</span>
+            
+          </div>
+          <div class="cta">
+            <!-- <a class="btn" href="#projects">See Projects</a> -->
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div>
+          <div
+            class="card"
+            style="
+              padding: 18px;
+              display: grid;
+              grid-template-columns: 120px 1fr;
+              gap: 16px;
+              align-items: center;
+            "
+          >
+            <div class="avatar" aria-hidden="true"></div>
+            <div>
+              <h3 style="margin: 0 0 6px">Programming Enthusiast</h3>
+              <p style="margin: 0; color: var(--muted)">
+                Open to work • Remote/On-site
+              </p>
+            </div>
+          </div>
+          <div class="spacer"></div>
+        </div>
+      </div>
+    </main>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container about">
+        <div class="card">
+          <h2 class="section-title">About</h2>
+          <p>
+            I'm an aspiring full-stack developer with a strong foundation in web technologies and programming languages.
+          With intermediate skills in HTML, CSS, and JavaScript, I create clean, responsive websites that provide great user experiences.
+          My knowledge of C, Python, Java, and C++ helps me approach coding challenges logically and efficiently.
+          I enjoy learning new frameworks, solving real-world problems, and continuously improving my technical skills.
+          </p>
+        </div>
+        <div class="card">
+          <h2 class="section-title">What I'm looking for</h2>
+          <p>
+            I'm looking for opportunities to grow as a developer while contributing to real projects.
+          I want to join a team where I can apply my skills in HTML, CSS, JavaScript, and programming fundamentals to solve problems and build practical solutions.
+          I'm eager to learn from experienced developers, improve my coding practices, and explore new tools and frameworks.
+          A supportive environment that values learning, collaboration, and creativity would be the perfect place for me to thrive.
+          </p>
+        </div>
+        <div class="card">
+          <h2 class="section-title">Education</h2>
+          <p>
+            X,XII - <br>
+            P.A.K Palanisamy higher secondary school <br>
+            Percentage: 66.6%, 79% <br>
+            Year of completion: 2023 <br>
+            <br>
+            BCA - <br>
+            SRM Institute of Science and Technology <br>
+            CGPA: 8.8 (till 4th sem) <br>
+            Year of completion: 2026 <br>
+          </p>
+        </div>
+        <div class="card">
+          <h2 class="section-title">Certifications </h2>
+          <p>
+            Certificate in MS Office, C, C++ - <br>
+            CSS Academy (Clintax Software Solution Academy), Chennai <br>
+            Achieved A+ Grade (84%) in a 6-month professional certification course,<br>
+            May 2023 - Nov 2023. <br>
+            <br>
+            Cyber Suraksha (Cybersecurity) - <br>
+            Microsoft & Tata STRIVE,<br>
+            40-hour online course completed on 16 Oct 2024.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills summary</h2>
+        <div class="skills">
+          <span class="chip">HTML</span>
+          <span class="chip">CSS</span>
+          <span class="chip">Javascript</span>
+          <span class="chip">Python</span>
+          <span class="chip">Java</span>
+          <span class="chip">C</span>
+          <span class="chip">C++</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+     <section id="projects">
+      <div class="container">
+      <h2 class="section-title"> Projects</h2>
+      <h4>E-commerce website: <a href="https://omganesh-m.github.io/E-commerce/">link</a></h4>
+      <!-- <div class="container"> -->
+       <p> A responsive e-commerce platform built using HTML, CSS, and JavaScript to create a seamless shopping experience for a wide range of products. The site features a dynamic shopping cart that allows users to add, remove, and update item quantities in real-time. The checkout process is streamlined with client-side form validation to ensure all required fields are completed. Additionally, the project highlights key customer services, such as free shipping and 24/7 support, demonstrating proficiency in building a functional and user-friendly web application.</p>
+      </div>
+    </section>
+
+
+    <!-- Competencies -->
+    <section class="competencies">
+      <div class="container">
+        <h2 class="section-title">Key competencies</h2>
+        <div class="skills">
+          <span class="chip">Meticulous and detail-oriented</span>
+          <span class="chip">Analytical thinking</span>
+          <span class="chip">Level headed</span>
+          <span class="chip">Adaptability</span>
+          <span class="chip">Time management</span>
+        </div>
+      </div>
+      </section>
+
+    <!-- Languages -->
+      <section id="language">
+      <div class="container">
+        <h2 class="section-title">Languages</h2>
+        <div class="skills">
+          <span class="chip">Tamil - Native proficiency</span>
+          <span class="chip">English - Limited working proficiency</span>
+        </div>
+      </div>
+    </section>
+
+   <!-- Contact -->
+<section id="contact">
+  <div class="container contact">
+    <div class="card">
+      <h2 class="section-title">Let's work together</h2>
+      <p class="note">
+        Have an opportunity or project in mind? Send a message and I'll get
+        back soon.
+      </p>
+      
+    
+      <div class="field">
+        <label for="name">Name</label>
+        <input
+          id="name"
+          name="name"
+          type="text"
+          placeholder="Your name"
+          required
+        />
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="your@gmail.com"
+          required
+        />
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Tell me about your project..."
+          required
+        ></textarea>
+      </div>
+
+      <div class="row" style="justify-content: space-between">
+        <a class="btn" 
+           href="https://mail.google.com/mail/?view=cm&fs=1&to=ganesh96579@gmail.com" 
+           target="_blank">
+          Send Message
+        </a>
+        <a class="btn ghost" 
+           href="https://mail.google.com/mail/?view=cm&fs=1&to=ganesh96579@gmail.com" 
+           target="_blank">
+          Or email directly
+        </a>
+      </div>
+    </div>
+
+    <aside class="card">
+      <h2 class="section-title">Elsewhere</h2>
+      <p class="note">
+        I share code, designs, and notes on these platforms:
+      </p>
+      <ul>
+        <li>
+          <a href="https://www.github.com/Omganesh-M">GitHub</a> ·
+          <span class="note">Open source & gists</span>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/omganesh-m-0a339a301">LinkedIn</a> · <span class="note">Work updates</span>
+        </li>
+      </ul>
+    </aside>
+  </div>
+</section>
+  </body>
+</html>
