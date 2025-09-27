@@ -14,9 +14,14 @@
     <!-- Optional: uncomment if you want the Inter font. Otherwise system fonts will be used
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="style.css" />
-    <style>
-      /* ---------- CSS Variables & Base ---------- */
-    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
   </head>
   <body>
     <!-- Header / Nav -->
@@ -41,9 +46,20 @@
             <a href="#about">Contact</a>
             <a href="Omganesh_resume.pdf" id="btn" class="down">Download CV</a>
           </div>
-
-      
+          
         </nav>
+
+          <p class="threedot"><i class="fa-solid fa-bars"></i></p>
+
+        <div class="aside">
+            <span class="closeBtn" >&times;</span>
+            <h2>Menu</h2>
+            <p><a href="#about">About</a></p>
+            <p><a href="#skills">Skills</a></p>
+            <p><a href="#projects">Projects</a></p>
+            <p><a href="#about">Contact</a></p>
+            <p><a href="Omganesh-M-resume.pdf" id="btn" class="down">Download CV</a></p>
+        </div>
       </div>
     </header>
 
@@ -56,7 +72,7 @@
             Building dynamic, responsive websites and solving problems through code.
           </h1>
           <p>  
-            Enthusiastic BCA student pursuing studies at SRM College with a passion for software development,
+            An ambitious  BCA student pursuing studies at SRM College with a passion for software development,
             problem-solving, and new technologies. Skilled at quickly learning new tools and programming
             languages. I have a strong foundation in computer science concepts. I am eager to work on real-world
             projects, cooperate with teams, and keep growing in the IT industry.
@@ -90,7 +106,7 @@
             <div class="avatar" aria-hidden="true"></div>
             <div>
               <h3 style="margin: 0 0 6px">Programming Enthusiast</h3>
-              <p style="margin: 0; color: var(--muted)">
+              <p style="margin: 0; color: #555; font-size: 14px">
                 Open to work • Remote/On-site
               </p>
             </div>
@@ -269,11 +285,26 @@
           <span class="note">Open source & gists</span>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/omganesh-m-0a339a301">LinkedIn</a> · <span class="note">Work updates</span>
+          <a href="https://www.linkedin.com/in/omganesh-m-0a339a301">LinkedIn</a> · 
+          <span class="note">Work updates</span>
         </li>
       </ul>
     </aside>
   </div>
 </section>
+
+<script>
+  const menuToggle = document.querySelector('.threedot');
+  const asideMenu = document.querySelector('.aside');
+  const closeBtn = document.querySelector('.closeBtn');
+
+  menuToggle.addEventListener('click', () => {
+    asideMenu.classList.add('active');
+  });
+
+  closeBtn.addEventListener('click', () => {
+    asideMenu.classList.remove('active');
+  });
+</script>
   </body>
 </html>
